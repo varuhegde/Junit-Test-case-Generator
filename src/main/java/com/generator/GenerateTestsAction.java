@@ -33,7 +33,7 @@ public class GenerateTestsAction extends AnAction {
         } 
 
         VirtualFile selectedFolder = FileChooser.chooseFile(
-                FileChooserDescriptorFactory.createSingleFolderDescriptor(),
+                FileChooserDescriptorFactory.createSingleFolderDescriptor(), 
                 project, null
         );
 
