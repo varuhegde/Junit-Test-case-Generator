@@ -30,7 +30,7 @@ public class GenerateTestsAction extends AnAction {
         if (project == null) {
             Messages.showErrorDialog("No open project found", "Error");
             return;
-        }
+        } 
 
         VirtualFile selectedFolder = FileChooser.chooseFile(
                 FileChooserDescriptorFactory.createSingleFolderDescriptor(),
